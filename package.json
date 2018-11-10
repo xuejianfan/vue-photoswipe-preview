@@ -1,7 +1,7 @@
 {
   "name": "vue-photoswipe-preview",
-  "description": "A vue-phtotswipe-preview on phtotswipe",
-  "version": "1.0.3",
+  "description": "A vue-photoswipe-preview on phtotswipe",
+  "version": "1.0.5",
   "author": "xuejianfan",
   "keywords":[
     "vue",

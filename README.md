@@ -1,11 +1,11 @@
 # vue-photoswipe-preview
 
-> A vue-phtotswipe-preview on phtotswipe
+> A vue-photoswipe-preview on phtotswipe
 
 ## Build Setup
 
 ``` 
-# npm install vue-phtotswipe-preview -s 
+# npm install vue-photoswipe-preview -s 
 ```
 <template>
   <div id="app">
