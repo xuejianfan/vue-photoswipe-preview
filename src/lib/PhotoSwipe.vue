@@ -132,7 +132,6 @@ export default {
 </script>
 <style  scoped>
 .pswp__top-bar{
-    padding:10px 20px;
     background:rgba(0,0,0,0.45);
     position: absolute;
     width:100%;
@@ -143,14 +142,14 @@ export default {
         font-size:16px;
         color:#fff;
     }
-    .pswp__button--close{
+    /* .pswp__button--close{
         width:22px;
         height:22px;
-        background:url('../assets/icon-close.png') 0 0 no-repeat;
+        background-image:url('../assets/icon-close.png') ;
         background-size:100% 100%;
         float:right;  
         background:transparent;
         color:#fff; 
-    }
+    } */
 
 </style>

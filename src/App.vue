@@ -1,5 +1,9 @@
 <template>
   <div id="app">
+     <div class="preview-img-list">
+        <img class="preview-img-item" v-for="(item, index) in items"
+            :src="item.src" @click="$photoswipe.open(index, items)">
+    </div>
     <img src="./assets/logo.png">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
@@ -24,7 +28,40 @@ export default {
   name: 'app',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your Vue.js App',
+       items: [{
+                    src: require ('./assets/Chrysanthemum.jpg'),
+                    w: 1024,
+                    h: 768
+                }, {
+                    src: require('./assets/Desert.jpg'),
+                    w: 1024,
+                    h: 768
+                }, {
+                    src: require('./assets/Hydrangeas.jpg'),
+                    w: 1024,
+                    h: 768
+                }, {
+                    src: require('./assets/Jellyfish.jpg'),
+                    w: 1024,
+                    h: 768
+                }, {
+                    src: require('./assets/Koala.jpg'),
+                    w: 1024,
+                    h: 768
+                }, {
+                    src: require('./assets/Lighthouse.jpg'),
+                    w: 1024,
+                    h: 768
+                }, {
+                    src: require('./assets/Penguins.jpg'),
+                    w: 1024,
+                    h: 768
+                }, {
+                    src: require('./assets/Tulips.jpg'),
+                    w: 1024,
+                    h: 768
+                }]
     }
   }
 }
@@ -56,5 +93,15 @@ li {
 
 a {
   color: #42b983;
+}
+.preview-img-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.preview-img-item {
+    margin: 5px;
+    max-width: 100px;
+    max-height: 100px;
 }
 </style>
