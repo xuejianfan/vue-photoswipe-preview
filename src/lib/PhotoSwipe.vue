@@ -75,6 +75,7 @@ import PhotoSwipe from "photoswipe/dist/photoswipe";
 import PhotoSwipeDefaultUI from "photoswipe/dist/photoswipe-ui-default";
 
 export default {
+  name:"vue-photoswipe-preview",
   methods: {
     open(
       index,
@@ -129,3 +130,27 @@ export default {
   }
 };
 </script>
+<style  scoped>
+.pswp__top-bar{
+    padding:10px 20px;
+    background:rgba(0,0,0,0.45);
+    position: absolute;
+    width:100%;
+    z-index:99;
+}
+    .pswp__counter{
+        display:inline-block;
+        font-size:16px;
+        color:#fff;
+    }
+    .pswp__button--close{
+        width:22px;
+        height:22px;
+        background:url('../assets/icon-close.png') 0 0 no-repeat;
+        background-size:100% 100%;
+        float:right;  
+        background:transparent;
+        color:#fff; 
+    }
+
+</style>

@@ -1,8 +1,12 @@
 {
   "name": "vue-photoswipe-preview",
   "description": "A vue-phtotswipe-preview on phtotswipe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "xuejianfan",
+  "keywords":[
+    "vue",
+    "photoswipe"
+  ],
   "license": "MIT",
   "private": false,
   "main":"dist/vue-phtotswipe-preview.js",
@@ -20,6 +24,10 @@
     "last 2 versions",
     "not ie <= 8"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xuejianfan/vue-photoswipe-preview.git"
+  },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
