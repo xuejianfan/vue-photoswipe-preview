@@ -5,8 +5,8 @@ module.exports = {
   entry: './src/lib/index.js',
   // entry:'./src/main.js',
   output: {
-    path: path.resolve(__dirname, './dist'),
-    publicPath: '/dist/',
+    path: path.resolve(__dirname, './mobile'),
+    publicPath: '/mobile/',
     filename: 'vue-photoswipe-preview.js',
     library: 'vue-photoswipe-preview',
     libraryTarget: 'umd',
