@@ -16,7 +16,9 @@ export default {
                 $vm.open(index, items, options)
             },
             close () {
-                $vm.close()
+                if($vm){
+                      $vm.close()
+                }
             }
         }
 
